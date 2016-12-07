@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="ResourcesPageTest(failed)">
+    <classes>
+      <class name="com.wbl.Test.LoginPageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.wbl.Test.LoginPageTest -->
+      <class name="com.wbl.Test.HomePageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.wbl.Test.HomePageTest -->
+      <class name="com.wbl.Test.PortalPageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.wbl.Test.PortalPageTest -->
+      <class name="com.wbl.Test.ForgotPageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeClassForgot"/>
+        </methods>
+      </class> <!-- com.wbl.Test.ForgotPageTest -->
+      <class name="com.wbl.Test.ResourcesPageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="testResourcesGalleryAction"/>
+        </methods>
+      </class> <!-- com.wbl.Test.ResourcesPageTest -->
+      <class name="com.wbl.Test.FAQPageTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeClassFAQ"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.wbl.Test.FAQPageTest -->
+    </classes>
+  </test> <!-- ResourcesPageTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

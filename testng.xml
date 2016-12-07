@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="LoginPageTest">
+    <classes>
+      <class name="com.wbl.Test.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="HomePageTest">
+    <classes>
+  <class name="com.wbl.Test.HomePageTest"/>
+    </classes>
+    </test> <!-- Test -->
+    <test name="ForgotPageTest">
+    <classes>
+  <class name="com.wbl.Test.ForgotPageTest"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="FAQPageTest">
+    <classes>
+  <class name="com.wbl.Test.FAQPageTest"/>
+    </classes>
+    </test> <!-- Test -->
+     <test name="PortalPageTest">
+    <classes>
+  <class name="com.wbl.Test.PortalPageTest"/>
+    </classes>
+    </test> <!-- Test -->
+      <test name="ResourcesPageTest">
+    <classes>
+  <class name="com.wbl.Test.ResourcesPageTest"/>
+    </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
